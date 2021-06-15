@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.block{
+    display: block;
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12.5px );
+    -webkit-backdrop-filter: blur( 12.5px );
+    border-radius: 50px;
+    border: 1px solid rgba(161, 107, 107, 0.18);    color: rgb(15, 1, 1);
+    padding: 30px 60px;
+    margin-left: 560px;    
+    width: 350px;
+     margin-top: 140px;/*Margin top too so you can lern both top and margin top */
+    font-size: 30px;
+    cursor:crosshair;
+    text-align: center;
+    border-radius: 50px;
+    /* margin: auto;Had tried this earlier */
+    /* transition: transform  0.001s; A faster version of this */
+    transition: transform 3.5s;
+}
+.block:hover{
+    -ms-transform: scale(1.9);
+    -webkit-transform: scale(1.9);
+   
+}
+.circlea{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: linear-gradient(
+        45deg,
+        #f3bbc9,
+        #62da1c
+    );
+    /* bottom: 90px;I tried giving bottom instead top */
+top: 45px;
+    right: 350px;
+    z-index: -1;
+    border-radius: 50%;
+
+}
+.circleb{
+    width: 200px;
+    height: 200px;
+
+    position: absolute;
+    background: linear-gradient(
+        135deg,
+        #3f67ec,
+        #fcfcfb
+    );
+    top: 115px;
+    left: 445px;
+    z-index: -1;
+    border-radius: 50%;/*Making the square a circle */
+
+}
+.change-font{ 
+    text-align: center;
+    margin-top: 300px;
+    font-size: 15px;
+}
