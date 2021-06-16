@@ -30,6 +30,11 @@ body{
     -webkit-transform: scale(1.9);
    
 }
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
 .circlea{
     width: 200px;
     height: 200px;
